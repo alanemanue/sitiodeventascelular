@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { marcas } from '../data/data';
+import './Navbar.css';
+
 
 export default function Navbar() {
   return (

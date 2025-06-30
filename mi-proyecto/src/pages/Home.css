@@ -1,0 +1,76 @@
+.home-container {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+  
+  .home-subtitle {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home-button {
+    background-color: #111;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 999px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #333;
+  }
+  
+  .destacado {
+    margin-top: 2.5rem;
+  }
+  
+  .destacado img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .destacado p {
+    margin-top: 0.5rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(-45deg, rgb(13, 190, 176), rgb(197, 12, 12), rgb(13, 190, 176), rgb(185, 10, 10));
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+  }
+  
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
