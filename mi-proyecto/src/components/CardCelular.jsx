@@ -11,12 +11,20 @@ export default function CardCelular({ celular }) {
     }}>
       {}
       <div style={{
-        backgroundColor: '#eee',
-        height: '150px',
-        marginBottom: '1rem'
-      }}>
-        <p style={{ textAlign: 'center', lineHeight: '150px' }}>Imagen</p>
-      </div>
+  height: '150px',
+  marginBottom: '1rem',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  overflow: 'hidden'
+}}>
+  <img 
+    src={celular.fotos[0]} 
+    alt={celular.nombre}
+    style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }} 
+  />
+</div>
+
 
       <h3>{celular.nombre}</h3>
       <p>{celular.descripcion}</p>

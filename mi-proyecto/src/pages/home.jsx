@@ -28,7 +28,7 @@ export default function Home() {
       {}
       <div style={{ marginTop: '3rem' }}>
         <img
-          src="mi-proyecto\public\iphone-15-ea18831396f959b2a316968119891232-1024-1024.jpg"
+          src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_pro.png"
           alt="Celular destacado"
           style={{ maxWidth: '100%', borderRadius: '20px' }}
         />
